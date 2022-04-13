@@ -17,6 +17,9 @@ namespace SelesWebMvc.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["Message"] = "Sua descrição da app da pagina";
+            ViewData["email"] = "wender@gmail.com";
+
             return View();
         }
 
